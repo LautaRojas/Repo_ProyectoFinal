@@ -42,15 +42,15 @@ body {
 
 footer {
   background-color: #ffffff;
-  font-style: italic;
   color: #ffffff;
-  margin-bottom: 0px;
-  height: 200px;
   background-image: url(../imagenes/header-fondo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; }
-
+.footerNav{
+  color: #ffffff;
+  font-size: 25px;
+}
 .multimedia {
   margin-left: 100px; }
 
@@ -156,8 +156,10 @@ h5 {
 }  
 
 @media only screen and (min-width: 768px) and (max-width: 1440px) {
-  footer {
-    min-width: 800px; }
+  .footerNav{
+    margin-left: 40px;
+    margin-right: 40px;
+  }
   a {
     max-width: 10px; }
   .carrusel{
